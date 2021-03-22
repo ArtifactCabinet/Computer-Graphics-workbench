@@ -37,8 +37,7 @@ Microsoft's documents on Graphics Pipeline<https://docs.microsoft.com/en-us/wind
 
 # to-do
 
-+ Understanding VAO, VBO, EBO
-Texture
++ Texture
 + shader loading!
 + <https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml>
 + Shaders -> review <https://docs.microsoft.com/en-us/windows/win32/direct3d11/overviews-direct3d-11-graphics-pipeline>

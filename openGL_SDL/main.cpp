@@ -130,7 +130,7 @@ int main( int argc, char * argv[] )
     glEnableVertexAttribArray( attrib_position );
     glEnableVertexAttribArray( attrib_color );
 
-    glVertexAttribPointer( attrib_color, 4, GL_FLOAT, GL_FALSE, sizeof( float ) * 6, 0 );
+    glVertexAttribPointer( attrib_color, 4, GL_FLOAT, GL_FALSE, sizeof( float ) * 6, nullptr );
     glVertexAttribPointer( attrib_position, 2, GL_FLOAT, GL_FALSE, sizeof( float ) * 6, ( void * )(4 * sizeof(float)) );
 
     const GLfloat g_vertex_buffer_data[] = {
@@ -172,10 +172,4 @@ int main( int argc, char * argv[] )
         SDL_GL_SwapWindow( window );
         SDL_Delay( 1 );
     }
-
-    SDL_GL_DeleteContext( context );
-    SDL_DestroyWindow( window );
-    SDL_Quit();
-
-    return 0;
 }
