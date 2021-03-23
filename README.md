@@ -1,7 +1,6 @@
 # Computer Graphics
-
+> cur -> openGL shaders
 ## Technical Details
-
 ### 2d-drawing
 
 + cross-platform -> Cairo (nice and ez) | Skia (Hard to use outside of Chromium)
@@ -34,10 +33,3 @@ All official documents -> Khronos OpenGL® Registry <https://www.khronos.org/reg
 Microsoft's documents on Graphics Pipeline<https://docs.microsoft.com/en-us/windows/win32/direct3d11/overviews-direct3d-11-graphics-pipeline>
 
 <https://paroj.github.io/gltut/Positioning/Tutorial%2005.html>
-
-# to-do
-
-+ Texture
-+ shader loading!
-+ <https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml>
-+ Shaders -> review <https://docs.microsoft.com/en-us/windows/win32/direct3d11/overviews-direct3d-11-graphics-pipeline>
